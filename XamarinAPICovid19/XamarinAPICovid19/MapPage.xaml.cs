@@ -16,7 +16,6 @@ namespace XamarinAPICovid19
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapPage : ContentPage
     {
-        CovidAPI CAPI;
         public MapPage()
         {
             InitializeComponent();
