@@ -166,7 +166,7 @@ namespace XamarinAPICovid19
                     grid.Children.Add(new BoxView
                     {
                         Margin = 0,
-                        HeightRequest = 25
+                        HeightRequest = 25,
                     }, 1, 1);
 
                     //Between Each Column Data
@@ -245,8 +245,6 @@ namespace XamarinAPICovid19
 
 
             } //For (Country) Loop ENDS
-
-            //Content = grid;
 
             //Adds Scroll
             ScrollView scrollview = new ScrollView { Content = grid };
