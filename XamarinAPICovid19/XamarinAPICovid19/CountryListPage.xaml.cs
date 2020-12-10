@@ -243,9 +243,10 @@ namespace XamarinAPICovid19
 
                 CountryCount++;
 
+
             } //For (Country) Loop ENDS
 
-
+            //Content = grid;
 
             //Adds Scroll
             ScrollView scrollview = new ScrollView { Content = grid };
